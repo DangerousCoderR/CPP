@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+// iostream is just a library
+// This is the first C++ project of RAJ RISHI 
+int main(){
+    // int = integer
+    // main is a function
+
+    int a = 5;
+    int b = 4;
+    float pi = 3.14;
+    cout<< "MY NAME IS RAJ RISHI.\nMy DOB is "<< a+b;
+    return 0;
+}
