@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int a = 1;
+int b;
+int i;
+int main(){
+    cout<< "Which number's table do you want?"<<endl;
+    cin>>i;
+    cout<< "Till where do you want the table?"<<endl;
+    cin>>b;
+   do{
+       cout<<i<<" X "<<a<<" = "<<i*a<<endl;
+       a++;
+   } while(a < (b + 1));
+    return 0;
+}
