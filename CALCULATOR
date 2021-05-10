@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+
+int sum(int a, int b){
+    int c = a + b;
+    return c;
+};
+
+int sub(int a, int b){
+    int c = a - b;
+    return c;
+};
+
+int into(int a, int b){
+    int c = a * b;
+    return c;
+};
+
+int divide(int a, int b){
+    int c = a / b;
+    return c;
+};
+
+int num1;
+int num2;
+int oper;
+
+int main(){
+    cout<< "TYPE '1' IF YOU WANT TO PERFORM ADDITION."<<endl;
+    cout<< "TYPE '2' IF YOU WANT TO PERFORM SUBTRACIION."<<endl;
+    cout<< "TYPE '3' IF YOU WANT TO PERFORM MULTIPLICATION."<<endl;
+    cout<< "TYPE '4' IF YOU WANT TO PERFORM DIVISION."<<endl;
+    cin>>oper;
+    if (oper == 1){
+        cout<< "YOU HAVE CHOSE ADDITION."<<endl<<"NOW ENTER THE 2 NUMBERS -->"<<endl;
+        cin>>num1;
+        cin>>num2;
+        cout<< "THE SUM IS "<<sum(num1, num2)<<".";
+    }
+    else if(oper == 2){
+        cout<< "YOU HAVE CHOSE SUBTRACTION."<<endl<<"NOW ENTER THE 2 NUMBERS -->"<<endl;
+        cin>>num1;
+        cin>>num2;
+        cout<< "THE RESULT OF SUBTRACTION IS "<<sub(num1, num2)<<".";
+    }
+    if (oper == 3){
+        cout<< "YOU HAVE CHOSE MULTIPLICATION."<<endl<<"NOW ENTER THE 2 NUMBERS -->"<<endl;
+        cin>>num1;
+        cin>>num2;
+        cout<< "THE RESULT OF MULTIPLICATION IS "<<into(num1, num2)<<".";
+    }
+    else if(oper == 4){
+        cout<< "YOU HAVE CHOSE DIVISION."<<endl<<"NOW ENTER THE 2 NUMBERS -->"<<endl;
+        cin>>num1;
+        cin>>num2;
+        cout<< "THE RESULT OF DIVISION IS "<<divide(num1, num2)<<".";
+    }
+    return 0;
+}
