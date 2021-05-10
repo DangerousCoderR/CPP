@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int i = 0;
+int main(){
+    int score[] = {5, 1, 6, 4};
+
+    // ******USING FOR LOOP******
+    for(int i = 0;i < 4;i++){
+     cout<< "The score of Football match is : "<<score[i]<<endl;
+    }
+
+    // ******USING WHILE LOOP******
+    --i;
+    while (i < 3){
+        i++;
+        cout<< "The score of Football match is : "<<score[i]<<endl;
+    }
+
+    // ******USING DO WHILE LOOP******
+    do{
+        cout<< "The score of Football match is : "<<score[i]<<endl;
+        i++;
+    }while (i < 4);
+    return 0;
+}
