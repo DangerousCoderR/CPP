@@ -2,7 +2,7 @@
 using namespace std;
 
 // iostream is just a library
-// This is the first C++ project of RAJ RISHI 
+// This is the first C++ project of DangerousCoderR
 int main(){
     // int = integer
     // main is a function
